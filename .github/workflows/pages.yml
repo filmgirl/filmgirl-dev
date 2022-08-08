@@ -1,0 +1,9 @@
+- name: Configure Pages
+  uses: actions/configure-pages@v1.1.0
+  with:
+    # Optional static site generator to attempt to configure (nuxt, next or gatsby)
+    static_site_generator: # optional
+    # GitHub token
+    token: # default is ${{ github.token }}
+    # Should a Pages site be enabled for the repository if not so already?
+    enablement: # optional, default is true

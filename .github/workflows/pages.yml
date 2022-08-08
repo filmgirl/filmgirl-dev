@@ -1,4 +1,4 @@
-- name: Configure Pages
+  name: Configure Pages
   uses: actions/configure-pages@v1.1.0
   with:
     # Optional static site generator to attempt to configure (nuxt, next or gatsby)
